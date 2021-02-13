@@ -1,0 +1,9 @@
+이전 commit에서 특정 파일만 가져오기
+git checkout <commit hash> <file name>
+이전 commit에서 특정 폴더 가져오기
+git checkout <commit hash> --<path>
+
+다른 브랜치의 특정 파일만 가져오기
+git checkout <branch> <filename>
+다른 브랜치의 특정 폴더 가져오기
+git checkout <branch> --<path>
